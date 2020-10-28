@@ -1,0 +1,357 @@
+.coco_logo{
+    z-index: 999;
+    position: relative;
+    text-align: center;
+}
+
+.coco_logo img{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 50px;
+}
+
+.text{
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 28%;
+    z-index: 998;
+    color: white;
+    text-shadow: 0 0 4px white
+}
+
+.text h3{
+    font-size: 3.0em;
+}
+
+.text p{
+    font-size: 1.5em;
+}
+
+
+.building_1{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    animation-name : building_1_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_1 .building{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 102;
+}
+
+.building_1 .light{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 103;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_1 .backlight{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 101;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_2{
+    width: 26%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    animation-name: building_2_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_2 .building{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 98;
+}
+
+.building_2 .light{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 99;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_2 .backlight{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 97;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_3{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    animation-name: building_3_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_3 .building{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 98;
+}
+
+.building_3 .light{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 99;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_3 .backlight{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 97;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_4{
+    width: 34%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    animation-name: building_4_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_4 .building{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 98;
+}
+
+.building_4 .light{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 99;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.building_4 .backlight{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 97;
+    animation-name : building_light;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.background{
+    height: 100%;
+    width: auto;
+    margin: auto;
+    background-image: url(../img/coco_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: background_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.coco{
+    position: relative;
+    text-align: center;
+    z-index: 999;
+}
+
+.coco img{
+    width: 20%;
+    position: absolute;
+    display: block;
+    left: 40%;
+    bottom: 0;
+    animation-name: coco_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.backlight{
+    width: 105%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0%;
+    overflow: hidden;
+}
+
+.backlight img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0%;
+    animation-name : backlight;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes coco_move{
+    from{
+        left: 39%;
+    }
+
+    to{
+        left: 41%;
+    }
+}
+
+@keyframes building_1_move{
+    from{
+        right: 8%;
+    }
+
+    to{
+        right: 8.8%;
+    }
+}
+
+@keyframes building_2_move{
+    from{
+        right: 21%;
+    }
+
+    to{
+        right: 21.4%;
+    }
+}
+
+@keyframes building_3_move{
+    from{
+        left: 17%;
+    }
+
+    to{
+        left: 16.6%;
+    }
+}
+
+@keyframes building_4_move{
+    from{
+        left: -10%;
+    }
+
+    to{
+        left: -10.8%;
+    }
+}
+
+@keyframes background_move{
+    0%{
+        background-position: 50%;
+    }
+
+    100%{
+        background-position: 50.4%;
+    }
+}
+
+@keyframes building_light{
+    0%{
+        opacity: 70%;
+    }
+
+    100%{
+        opacity: 20%;
+    }
+}
+
+@keyframes .backlight{
+    0%{
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 20%;
+    }
+}
